@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea at Six</title>
+  <meta name="description" content="Tea at Six — a Celtic folk group from Denver, Colorado.">
+  <meta property="og:title" content="Tea at Six">
+  <meta property="og:description" content="A Celtic folk group from Denver, Colorado.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="hero">
+      <figure class="band">
+        <img src="images/group.jpg" alt="Cora, Adam, and Dylan with harp, fiddle, and guitar" class="band-img" width="1600" height="839">
+      </figure>
+
+      <h1 class="title">Tea at Six</h1>
+    </header>
+
+    <main>
+
+      <section class="intro">
+        <p><i>Tea at Six is a Celtic-folk group from Denver, Colorado, playing tunes and songs from the Irish and Scottish traditions, as well as some old-time, 
+        and a few of our own.</i></p>
+      </section>
+
+      <nav class="actions" aria-label="Listen and contact">
+        <a class="card" href="https://teaatsix.bandcamp.com" target="_blank" rel="noopener">
+          <img src="images/them-apples.jpg" alt="Them Apples cover art" class="card-art">
+          <span class="card-text">
+            <span class="card-label">Listen</span>
+            <span class="card-sub">teaatsix.bandcamp.com</span>
+          </span>
+        </a>
+
+        <a class="card" href="mailto:teaatsixband@gmail.com?subject=Booking%20inquiry">
+          <span class="card-art card-art--mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <rect x="2.5" y="5" width="19" height="14" rx="1.5"></rect>
+              <path d="M3 6.2 12 13l9-6.8"></path>
+            </svg>
+          </span>
+          <span class="card-text">
+            <span class="card-label">Booking &amp; Inquiries</span>
+            <span class="card-sub">teaatsixband@gmail.com</span>
+          </span>
+        </a>
+      </nav>
+    </main>
+
+    <footer class="foot">
+      <p>&copy; <span id="year">2026</span> Tea at Six &middot; Denver, CO</p>
+    </footer>
+
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
